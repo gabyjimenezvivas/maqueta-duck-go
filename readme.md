@@ -1,3 +1,3 @@
 clase de diseño
 
-Otro contenido
+Otro contenido 
