@@ -1,9 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap');
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+html {
+    background: #f7f7f7;
+}
+
 .text-center {
     text-align: center;
 }
 
 .logo {
-    width: 300px;
+    width: 200px
 }
 
 .margin-bottom-20 {
@@ -14,4 +24,112 @@
     padding: 12px 16px;
     border-radius: 5px;
     border: 1px solid #eee;
+    background-color: #678fff;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.boton-naranja {
+    background: rgba(0,0,0,0.4) !important;
+    border: 1px solid #a52626;    
+}
+
+.cuadro-de-busqueda {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    font-size: 1.1em;
+    font-weight: normal;
+    display: block;
+    width: 599px;
+    background: #fff;
+    outline: none;
+    border: 1px solid gainsboro;
+    padding: 0;
+    height: 37px;
+    z-index: 1;
+    position: relative;
+    top: -1px;
+    margin: auto;
+    border-radius: 5px;
+    padding: 2px 15px;
+}
+
+.busqueda-privada{
+    color:#353748;
+    
+}
+
+.text-center{
+    cursor: initial;
+}
+
+.info {
+    font-weight: 700;
+    margin-right: 20px;
+    font-size: 15px;
+}
+
+.cuadro-de-tarjetas {
+    background-color: tomato;
+    display: flex;
+    max-width: 992px;
+    margin: 2em auto;
+}
+
+.tarjeta {
+    background-color: white;
+    padding: 1em;
+    margin: 0px 15px;
+    flex: 1;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.titulo {
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.icono {
+    display: block;
+    width: auto;
+    margin: 15px auto;
+    min-height: 72px;
+    max-height: 72px;
+}
+
+.contenido {
+    font-size: 18px;
+}
+
+.fondo-tomate {
+    background-color: tomato;
+    padding: 10em 0;
+    background-image: url('../assets/monster.svg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 580px;
+}
+
+.titulo-2 {
+    color: #fff;
+    font-size: 24px;
+    max-width: 680px;
+    margin: auto;
+}
+
+.parrafo {
+    color: #fff;
+    font-size: 20px;
+    max-width: 780px;
+    margin: auto;
 }
